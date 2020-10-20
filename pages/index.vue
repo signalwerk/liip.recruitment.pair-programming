@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <Cards />
       <Logo />
       <h1 class="title">test</h1>
       <div class="links">
@@ -26,7 +27,11 @@
 </template>
 
 <script>
-export default {}
+import Cards from '@/components/Cards'
+
+export default {
+  components: { Cards },
+}
 </script>
 
 <style>
